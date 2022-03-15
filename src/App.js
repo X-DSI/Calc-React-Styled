@@ -18,7 +18,7 @@ const App = () => {
       <>
       <GlobalStyles/>
         <div className="App">
-          <button onClick={themeToggler}>Switch Theme</button>
+          <button  onClick={themeToggler}>Switch Theme</button>
           {
             }
         </div>
