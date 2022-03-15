@@ -1,12 +1,14 @@
+import styled from "styled-components"
+import PropTypes from 'prop-types'
+import { StyledButton } from "./styles/App.styled"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
-  );
+    <div>
+            <StyledButton>Click me</StyledButton>
+            <StyledButton secondary>Click for secondary Action</StyledButton>
+        </div>
+  )
 }
 
-export default App;
+export default App
