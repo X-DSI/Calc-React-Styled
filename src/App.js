@@ -1,29 +1,30 @@
-import { ThemeProvider } from "styled-components"
-import styled from "styled-components"
-import PropTypes from 'prop-types'
-import { StyledButton } from "./styles/App.styled"
-import { GlobalStyles } from "./styles/globalstyles"
-import { lightTheme, darkTheme } from "./styles/Themes"
-import React, { useState, useEffect } from "react"
+import { ThemeProvider } from "styled-components";
+import styled from "styled-components";
+import PropTypes from "prop-types";
+import { StyledButton } from "./styles/App.styled";
+import { GlobalStyles } from "./styles/globalstyles";
+import { lightTheme, darkTheme } from "./styles/Themes";
+import React, { useState, useEffect } from "react";
+import Calculator from "./components/Calculator/Calculator";
+import { StyledWrapper } from "./styles/App.styled";
 
 const App = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState("light");
   const themeToggler = () => {
-    theme === 'light' ? setTheme('dark') : setTheme('light')
-}
-
+    theme === "light" ? setTheme("dark") : setTheme("light");
+  };
 
   return (
-    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <>
-      <GlobalStyles/>
-        <div className="App">
-          <button  onClick={themeToggler}>Switch Theme</button>
-          {
-            }
-        </div>
+        <GlobalStyles />
+        <StyledWrapper>
+          {/* <button onClick={themeToggler}>Switch Theme</button> */}
+          <Calculator />
+        </StyledWrapper>
       </>
     </ThemeProvider>
+
     // <div>
     //   <StyledButton>Click me</StyledButton>
     //   <StyledButton secondary>Click for secondary Action</StyledButton>
@@ -31,4 +32,4 @@ const App = () => {
   );
 };
 
-export default App
+export default App;

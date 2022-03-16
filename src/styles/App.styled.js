@@ -1,5 +1,9 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-export const StyledButton = styled.button`
-  
-`
+export const StyledWrapper = styled.div`
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: aquamarine; */
+  box-sizing: border-box;
+`;
