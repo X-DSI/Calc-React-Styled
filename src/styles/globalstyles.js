@@ -14,18 +14,6 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   Button{
-    background: #000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: inherit;
-    box-shadow: 
-    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    
   }
   `;

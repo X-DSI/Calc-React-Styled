@@ -7,6 +7,7 @@ import { lightTheme, darkTheme } from "./styles/Themes";
 import React, { useState, useEffect } from "react";
 import Calculator from "./components/Calculator/Calculator";
 import { StyledWrapper } from "./styles/App.styled";
+// import { StyledButton } from "./components/Calculator/Calculator.styled";
 
 const App = () => {
   const [theme, setTheme] = useState("light");
@@ -20,7 +21,7 @@ const App = () => {
         <GlobalStyles />
         <StyledWrapper>
           <Calculator />
-          <button onClick={themeToggler}>Switch Theme</button>
+          <StyledButton onClick={themeToggler}>Switch Theme</StyledButton>
         </StyledWrapper>
       </>
     </ThemeProvider>
