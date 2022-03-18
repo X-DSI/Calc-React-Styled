@@ -19,8 +19,8 @@ const App = () => {
       <>
         <GlobalStyles />
         <StyledWrapper>
-          {/* <button onClick={themeToggler}>Switch Theme</button> */}
           <Calculator />
+          <button onClick={themeToggler}>Switch Theme</button>
         </StyledWrapper>
       </>
     </ThemeProvider>
