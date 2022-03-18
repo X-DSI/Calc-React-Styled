@@ -1,6 +1,4 @@
-import { createGlobalStyle} from "styled-components"
-
-
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -10,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
     transition: all 0.50s linear;
     height: 100vh;
     width: 100vw;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
   }
@@ -27,4 +25,4 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 15px;
     font-family: inherit;
   }
-  `
+  `;
