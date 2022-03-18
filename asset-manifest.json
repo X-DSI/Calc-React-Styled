@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/calc-react-styled/static/js/main.5836fc95.js",
+    "static/js/787.4a7c2170.chunk.js": "/calc-react-styled/static/js/787.4a7c2170.chunk.js",
+    "index.html": "/calc-react-styled/index.html",
+    "main.5836fc95.js.map": "/calc-react-styled/static/js/main.5836fc95.js.map",
+    "787.4a7c2170.chunk.js.map": "/calc-react-styled/static/js/787.4a7c2170.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5836fc95.js"
+  ]
+}
